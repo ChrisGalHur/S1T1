@@ -3,8 +3,9 @@ package S1T1N1;
 public abstract class Instrumento {
 	
 	static {
-		System.out.println("Se están afinando los instrumentos.");
+		System.out.println("La sala se ha abierto");
 	}
+	
 	//Variables
 	String nombre = "";
 	int precio = 0;
