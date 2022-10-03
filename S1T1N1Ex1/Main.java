@@ -1,6 +1,6 @@
-package S1T1N1;
+package S1T1N1Ex1;
 
-public class S1T1N1 {
+public class Main {
 
 	public static void main(String[] args) {
 		/*Nivell 1
@@ -24,14 +24,15 @@ public class S1T1N1 {
 		Viento instrumentoViento1 = new Viento("Flauta", 20);
 		Viento instrumentoViento2 = new Viento("Trombón", 80);
 		Cuerda instrumentoCuerda1 = new Cuerda("Guitarra", 60);
-		Percusion intrumentoPercusion1 = new Percusion("Tambor", 100);
-		Cuerda intrumentoCuerda2 = new Cuerda("Violín", 150);
+		Percusion instrumentoPercusion1 = new Percusion("Tambor", 100);
+		Cuerda instrumentoCuerda2 = new Cuerda("Violín", 150);
 		
 		//Salida
 		System.out.println(instrumentoViento1.tocar() + " " + instrumentoViento1.getNombre() + ".");
-		System.out.println(instrumentoCuerda1.tocar());
-		System.out.println(intrumentoPercusion1.tocar());
-		System.out.println();
+		System.out.println(instrumentoCuerda1.tocar() + " " + instrumentoCuerda1.getNombre() + ".");
+		System.out.println(instrumentoPercusion1.tocar() + " " + instrumentoPercusion1.getNombre() + ".");
+		System.out.println(instrumentoCuerda2.tocar() + " " + instrumentoCuerda2.getNombre() + ".");
+		
 	}
 
 }

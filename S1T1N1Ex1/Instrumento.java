@@ -1,19 +1,19 @@
-package S1T1N1;
+package S1T1N1Ex1;
 
 public abstract class Instrumento {
 	
-	static {
+	static{
 		System.out.println("La sala se ha abierto");
 	}
 	
 	//Variables
-	String nombre = "";
-	int precio = 0;
+	private String nombre;
+	private int precio;
 	
 	//Constructor
 	public Instrumento(String nombre, int precio) {
-		this.nombre = "";
-		this.precio = 0;
+		this.nombre = nombre;
+		this.precio = precio;
 	}
 	
 	//Getters
